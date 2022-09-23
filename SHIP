@@ -9,7 +9,6 @@ line(1920,0,1920,1080);
 line(1920,1080,0,1080);
 line(0,1080,0,0);
 FloodFill(1,1,clCornflowerBlue);
-
 ///Мачта – низ
 SetPenColor(clSaddleBrown);
 line(255,350,255,285);
@@ -17,7 +16,6 @@ line(255,285,270,285);
 line(270,285,270,350);
 line(270,350,255,350);
 FloodFill(265,340,clSaddleBrown);
-
 ///Мачта - верх
 SetPenColor(clSaddleBrown);
 line(255,130,255,115);
@@ -25,7 +23,6 @@ line(255,115,270,115);
 line(270,115,270,130);
 line(270,130,255,130);
 FloodFill(265,120,clSaddleBrown);
-
 ///Парус
 SetPenColor(clLightGray);
 line(125,130,400,130);
@@ -41,14 +38,12 @@ line(200,500,650,500);
 line(650,500,650,350);
 line(650,350,50,350);
 FloodFill(400,400,clBrown);///Заливка
-
 ///Окна
 SetPenColor(clBlack);
 setpenwidth(2);
 circle(220,430,35);
 circle(360,430,35);
 circle(520,430,35);
-
 ///Рубка
 setpenwidth(1);
 SetPenColor(clBrown);
@@ -60,7 +55,6 @@ FloodFill(640,340,clBrown);
 setpenwidth(3);
 SetPenColor(clBlack);
 circle(575,275,35);
-
 ///Антенна
 setpenwidth(3);
 line(620,200,620,100);
@@ -68,6 +62,7 @@ line(620,115,590,115);
 line(600,130,600,105);
 line(620,115,650,115);
 line(640,130,640,105);
+
 
 ///Поручни
 setpenwidth(2);
@@ -109,7 +104,7 @@ FloodFill(1910,1070,clYellow);
 
 ///Человек на острове
 SetPenColor(clBlack);
-setpenwidth(1);
+setpenwidth(6);
 line(1700,1000,1720,930);
 line(1720,930,1740,1000);
 line(1720,930,1720,860);
